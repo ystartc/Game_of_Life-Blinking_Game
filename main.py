@@ -30,8 +30,6 @@ def one_generation(stage):
             elif stage[v_pos][h_pos] and neighbors > 3:
                 new_stage[v_pos][h_pos] = False
     return new_stage
-                
-stage = one_generation(stage) 
 
 init_stage(stage)
 print("First Generation:")
